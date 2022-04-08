@@ -13,10 +13,6 @@ def stream_markup(user_id):
       InlineKeyboardButton(text="ıllıllı 𝐌𝐄𝐍𝐔 ıllıllı    ", callback_data=f'stream_menu_panel | {user_id}'),
     ],
     [
-      InlineKeyboardButton("ıllıllı 𝐆𝐑𝐎𝐔𝐏 ıllıllı", url=f"https://t.me/{GROUP_SUPPORT}"),
-      InlineKeyboardButton("ıllıllı 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ıllıllı", url=f"https://t.me/{UPDATES_CHANNEL}"),
-    ],
-    [
        InlineKeyboardButton(text="ıllıllı 𝐂𝐋𝐎𝐒𝐄 ıllıllı   ", callback_data=f'set_close'),
     ]
   ]
