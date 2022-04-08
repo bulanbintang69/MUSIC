@@ -42,7 +42,7 @@ close_mark = InlineKeyboardMarkup(
   [
     [
       InlineKeyboardButton(
-        "🗑 Close", callback_data="set_close"
+        "💨 Close", callback_data="set_close"
       )
     ]
   ]
